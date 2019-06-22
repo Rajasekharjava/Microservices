@@ -13,4 +13,4 @@ eureka:
       exposure:
         include: '*'
         
-spring.message:Hey You Got It!
+spring.hello.message=Hello Raja Welcome to Spring Cloud Env
