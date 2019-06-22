@@ -12,3 +12,5 @@ eureka:
     web:
       exposure:
         include: '*'
+        
+spring.message:Hey You Got It!
