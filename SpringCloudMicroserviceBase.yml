@@ -12,7 +12,11 @@ management:
     web:
       exposure:
         include: '*'
-spring:
-  hello:
-    message: Hello Raja Welcome to Spring Cloud Env
 
+hello.message: Hello Raja Welcome to Spring Cloud Env
+    
+spring:   
+   mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp 
